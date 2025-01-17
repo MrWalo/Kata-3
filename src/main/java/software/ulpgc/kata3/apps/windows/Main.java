@@ -8,6 +8,7 @@ import java.io.IOException;
 
 public class Main {
     public static void main(String[] args) throws IOException {
+
         MainFrame mainFrame = new MainFrame();
         MockBarchartLoader loader = new MockBarchartLoader();
         mainFrame.put("toggle", new ToggleStatisticCommand(mainFrame.getbarchartDisplay(), loader));

@@ -19,4 +19,5 @@ public class ToggleStatisticCommand implements Command {
     public void execute() throws IOException {
         display.show(loader.load(i++ % 2));
     }
+
 }

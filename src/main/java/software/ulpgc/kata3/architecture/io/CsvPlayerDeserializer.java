@@ -1,6 +1,7 @@
 package software.ulpgc.kata3.architecture.io;
 
 public class CsvPlayerDeserializer implements PlayerDeserializer {
+
     @Override
     public Player deserialize(String line) {return deserialize(line.split(","));}
 
