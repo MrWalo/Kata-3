@@ -1,4 +1,4 @@
-package software.ulpgc.kata3.architecture.io;
+package software.ulpgc.kata3.architecture.model;
 
 public class Player {
     private final String player;

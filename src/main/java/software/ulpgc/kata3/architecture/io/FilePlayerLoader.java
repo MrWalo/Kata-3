@@ -1,5 +1,7 @@
 package software.ulpgc.kata3.architecture.io;
 
+import software.ulpgc.kata3.architecture.model.Player;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
